@@ -6,7 +6,7 @@
     <link rel="apple-touch-icon" sizes="76x76" href="{{processing_files($configs['base.website_icon'])}}">
     <link rel="icon" type="image/png" href="{{processing_files($configs['base.website_icon'])}}">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>{{$configs['base.website_seo_title']}}</title>
+    <title>{{$configs['base.website_title']}}</title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="keywords" content="{{$configs['base.website_keyword']}}">
@@ -70,8 +70,8 @@
         </div>
     </div>
     <div class="moving-clouds" style="background-image: url('{{__STATIC_HOME__}}/assets/img/clouds.png'); "></div>
-    <h6 class="category category-absolute">{{$configs['base.website_keep']}}</h6>
-    <h6 class="category category-absolute ml-auto mr-auto"><a href="http://www.beian.miit.gov.cn" target="_blank">{{$configs['base.website_keep']}}</a></h6>
+{{--    <h6 class="category category-absolute">{{$configs['base.website_keep']}}</h6>--}}
+    <h6 class="category category-absolute ml-auto mr-auto"><a href="https://beian.miit.gov.cn" target="_blank">{{$configs['base.website_keep']}}</a></h6>
 </div>
 </body>
 <!--   核心JS文件   -->
