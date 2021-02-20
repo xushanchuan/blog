@@ -11,6 +11,8 @@
 |
 */
 //配置网站前台路由规则
+use Illuminate\Support\Facades\Route;
+
 Route::middleware(['laravel_pjax'])->name('home.')->group(function (){
     Route::get('/','Home\IndexController@index')->name('index');
     Route::match(['get','post'],'article/{nav_id?}','Home\ArticleController@index')->name('article');
