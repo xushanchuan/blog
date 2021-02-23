@@ -10,6 +10,8 @@ class AboutController extends Controller
     /**
      * Desc:关于我个人信息展示
      * Date:2019/9/3/003
+     * @param BlogAbout $blogAbout
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
     public function index(BlogAbout $blogAbout)
     {

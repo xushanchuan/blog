@@ -24,7 +24,7 @@ class BlogNavArticleController extends AdminController
      *
      * @var string
      */
-    protected $title = 'App\Models\BlogNavArticle';
+    protected $title = '文章';
 
     public function index(Content $content)
     {
